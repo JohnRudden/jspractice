@@ -23,7 +23,7 @@ rl.question(`Enter phrase for vowel reversal?\n -> `, (phrase) => {
     }
   });
 
-  var ind = 0;
+  let ind = 0;
   vowelArray.forEach((item) => {
     phraseArray[vowelIndex[ind]] = item;
     ind++;
